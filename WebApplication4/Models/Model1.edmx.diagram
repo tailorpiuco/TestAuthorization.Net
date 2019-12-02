@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f23cc08e493e44b2a3d6cd44ef954f29" Name="Diagram1">
+        <EntityTypeShape EntityType="Teste5Model.Grupo" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Teste5Model.GrupoCanalVenda" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Teste5Model.GrupoFuncionalidade" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Teste5Model.GrupoUsuario" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="Teste5Model.FK_GrupoCanalVenda_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="Teste5Model.FK_GrupoFuncionalidade_Grupo" ManuallyRouted="false" />
+        <AssociationConnector Association="Teste5Model.FK_GrupoUsuario_Grupo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
